@@ -1,6 +1,8 @@
 compute-product
 ===============
 
+[![Coverage Status](https://coveralls.io/repos/ruffle1986/compute-product/badge.svg?branch=master&service=github)](https://coveralls.io/github/ruffle1986/compute-product?branch=master) [![Build Status](https://travis-ci.org/ruffle1986/compute-product.svg)](https://travis-ci.org/ruffle1986/compute-product)
+
 Computes the cartesian product of the given list of subsets.
 
 According to the performance tests with [matcha](https://www.npmjs.com/package/matcha),
