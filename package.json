@@ -1,5 +1,5 @@
 {
-  "name": "product",
+  "name": "compute-product",
   "version": "1.0.0",
   "description": "Computes the cartesian product of the given list of sets.",
   "main": "dist/index.js",
@@ -10,7 +10,7 @@
     "bench": "npm run build && matcha benchmark.js",
     "prepublish": "npm run test && npm run build",
     "cover": "istanbul cover $(npm bin)/ava test.js",
-    "coveralls": "npm run cover && cat ./coverage/lcov.info | $(npm bin)/coveralls",
+    "coveralls": "npm run cover && cat ./coverage/lcov.info | $(npm bin)/coveralls"
   },
   "repository": {
     "type": "git",

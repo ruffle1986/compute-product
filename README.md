@@ -1,5 +1,5 @@
-product
-=======
+compute-product
+===============
 
 Computes the cartesian product of the given list of subsets.
 
@@ -12,13 +12,13 @@ It's even faster when it's written in es5 but I wanted to implement it in es6.
 ## Install
 
 ```sh
-$ npm i -g product
+$ npm i -g compute-product
 ```
 
 ## Usage
 
 ```js
-import product from 'product'
+import product from 'compute-product'
 
 product([[1, 2], [4, 5]]) // [[1, 4], [1, 5], [2, 4], [2, 5]]
 
