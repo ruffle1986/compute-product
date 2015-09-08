@@ -1,0 +1,55 @@
+{
+  "name": "product",
+  "version": "1.0.0",
+  "description": "Computes the cartesian product of the given list of sets.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "xo !dist",
+    "posttest": "ava",
+    "build": "babel index.js -d dist",
+    "bench": "npm run build && matcha benchmark.js",
+    "prepublish": "npm run test && npm run build",
+    "cover": "istanbul cover $(npm bin)/ava test.js",
+    "coveralls": "npm run cover && cat ./coverage/lcov.info | $(npm bin)/coveralls",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruffle1986/cartesian-product.git"
+  },
+  "keywords": [
+    "cartesian",
+    "product",
+    "set",
+    "mathematics",
+    "fast",
+    "es6",
+    "es2015",
+    "esnext"
+  ],
+  "author": "ruffle1986",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruffle1986/cartesian-product/issues"
+  },
+  "homepage": "https://github.com/ruffle1986/cartesian-product#readme",
+  "devDependencies": {
+    "ava": "git://github.com/sindresorhus/ava.git",
+    "babel": "^5.8.23",
+    "cartesian-product": "^2.1.2",
+    "coveralls": "^2.11.4",
+    "istanbul": "^0.3.19",
+    "matcha": "^0.6.0",
+    "xo": "^0.8.0"
+  },
+  "dependencies": {
+    "fast.js": "^0.1.1"
+  },
+  "xo": {
+    "envs": [
+      "node"
+    ],
+    "space": true,
+    "semicolon": false,
+    "esnext": true
+  }
+}

@@ -1,0 +1,7 @@
+node_modules
+.gitignore
+.npmignore
+benchmark.js
+index.js
+!dist/index.js
+test.js
