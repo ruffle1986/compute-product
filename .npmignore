@@ -5,3 +5,4 @@ benchmark.js
 index.js
 !dist/index.js
 test.js
+.travis.yml
