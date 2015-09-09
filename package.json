@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ruffle1986/cartesian-product.git"
+    "url": "git+https://github.com/ruffle1986/compute-product.git"
   },
   "keywords": [
     "cartesian",
@@ -29,9 +29,9 @@
   "author": "ruffle1986",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ruffle1986/cartesian-product/issues"
+    "url": "https://github.com/ruffle1986/compute-product/issues"
   },
-  "homepage": "https://github.com/ruffle1986/cartesian-product#readme",
+  "homepage": "https://github.com/ruffle1986/compute-product#readme",
   "devDependencies": {
     "ava": "git://github.com/sindresorhus/ava.git",
     "babel": "^5.8.23",
